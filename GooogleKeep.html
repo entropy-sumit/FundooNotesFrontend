@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoogleKeep</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        .header{
+            border: 1px solid grey;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .box1
+        {
+            display: flex;
+            /* border: 1px solid black; */
+            justify-content: space-around;
+            align-items: center;
+            width:150px;
+            height: 60%;
+            
+        }
+        .box2 input{
+            width: 80%;
+            height: 60px;
+            border: none;
+            background-color: rgb(228, 227, 227);
+            border-radius: 5px;
+            
+        }
+        .box2
+        {  
+            width:750px;
+            margin: 50px; 
+            height: 60%;  
+        }
+       
+        .box3
+        {
+            display: flex;
+            /* border: 1px solid black; */
+            margin: 10px;
+            width: 10%;
+            height: 60%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 20px;  
+        }
+        .box4
+        {
+            display: flex;
+            /* border: 1px solid black; */
+            width: 10%;
+            height: 60%;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .notesmainone{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 1px solid; */
+            
+        }
+        .notesone{
+            
+            display: flex;
+            /* border: 1px solid red; */
+            background-color: whitesmoke;
+            margin: 10px;
+            width: 40vw;
+            height: 50px;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .note-one input{
+            
+            width: 400px;
+            height: 40px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            background-color: whitesmoke;
+
+        }
+        .note-one-icons
+        {
+            display: flex;
+            /* border: 1px solid black; */
+            margin: 20px;
+            width: 30%;
+            height: 20px;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 5px; 
+            
+        }
+        
+        .notestwomain{
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid red; */
+
+           
+        }
+       
+        
+        .notestwo{
+            display: flex;
+            /* border: 1px solid black; */
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: whitesmoke;
+            border-radius: 5px;
+           
+            
+            
+        }
+        .notes-two{
+            display: flex;
+            /* border: 1px solid black; */
+            width: 40vw;
+            height: 10vh;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: whitesmoke;
+            padding-right: 10px;
+        }
+        .notes-two input
+        {
+            width: 90%;
+            height: 40px;
+            border: none;
+            outline: none;
+            background-color: whitesmoke;
+        }
+        /* .notes-two button
+        {
+            outline: none;
+           
+        }
+       */
+        
+
+    </style>
+</head>
+<body>
+    <div class="header">
+
+        <div class="box1">
+            <i class="fa-solid fa-bars"></i>
+
+            <img src="asset/download.png" alt="img">
+
+            <span>Keep</span>
+        </div>
+
+        <div class="box2">
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="box3">
+              
+            <i class="fa-solid fa-arrow-rotate-right"></i> 
+
+            <i class="fa-solid fa-equals"></i>
+
+            <i class="fa-solid fa-gear"></i>
+        </div>
+
+        <div class="box4">
+            <i class="fa-solid fa-grid-4"></i>
+            <i class="fa-solid fa-circle-s"></i>
+            
+        </div>
+    </div>
+
+
+
+    <div class="notesmainone">
+        
+        <div class="notesone">
+            <div class="note-one">
+                <input type="text" placeholder="Take a Note...">
+            </div>
+                <div class="note-one-icons">
+                    <i class="fa-regular fa-square-check"></i>
+
+                    <i class="fa-solid fa-paintbrush"></i>
+
+                    <i class="fa-regular fa-image"></i>  
+                </div>    
+        </div>
+    </div>
+
+   
+       <div class="notestwomain">
+
+        <div class="notestwo">
+            <div class="notes-two">
+                <input type="text" placeholder="Title">
+                <i class="fa-solid fa-thumbtack"></i>
+            </div>
+            <div class="notes-two">
+                <input type="text" placeholder="Take a Note...">
+            </div>
+            <div class="notes-two">
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-user-plus"></i>
+                <i class="fa-solid fa-palette"></i>
+                <i class="fa-regular fa-image"></i>
+                <i class="fa-solid fa-box-archive"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-solid fa-rotate-left"></i>
+                <i class="fa-solid fa-rotate-right"></i>                
+                <button>Close</button>
+            </div>
+        </div>
+
+       </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
